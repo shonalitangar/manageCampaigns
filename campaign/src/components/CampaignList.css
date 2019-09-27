@@ -1,0 +1,15 @@
+import React from 'react'
+
+const CampaignItem = (props) => {
+    let val = []; 
+    val = props.data.map(video => {
+        console.log(video);
+        return <div key={video.id.videoId}>
+                    <p> {video.snippet.title} </p> 
+                    <img src={video.snippet.thumbnails.medium.url} alt="none"></img>
+                </div> 
+    });
+    return <div id="imageList">{ val }</div>
+}
+
+export default VideoList

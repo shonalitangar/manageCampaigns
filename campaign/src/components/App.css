@@ -1,0 +1,21 @@
+.m-t-10 {
+	margin-top: 10px;
+}
+
+.lighter-font {
+	font-weight: 100;
+}
+
+.center {
+	text-align: center;
+}
+
+.align-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contain {
+	padding: 30px;
+}
